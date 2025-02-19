@@ -1,0 +1,9 @@
+.board {
+  display: flex;        /* Make it a flex container */
+  flex-wrap: wrap;     /* Allow items to wrap to the next line */
+  width: 300px;       /* IMPORTANT: Set the board's width (3 * cell width) */
+  /*  If your cell width is 100px, the board width should be 300px */
+  /* Optional for visual centering of the board, see notes below*/
+  margin: 0 auto; 
+  border: 5px solid black; /*just for visual*/
+}
